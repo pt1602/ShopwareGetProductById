@@ -1,17 +1,16 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace ShopwareGetProductById\Subscriber;
 
+use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 use Shopware\Core\System\SalesChannel\Entity\SalesChannelRepositoryInterface;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
-use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 
 class GetProductById extends AbstractExtension
 {
-    /**
-     * @var SalesChannelRepositoryInterface
-     */
     private SalesChannelRepositoryInterface $salesChannelProductRepository;
 
     /**
@@ -31,7 +30,6 @@ class GetProductById extends AbstractExtension
 
     public function GetProductById($productID, $context)
     {
-        return
-            $this->salesChannelProductRepository->search(new Criteria([$productID]), $context)->first();
+        return $this->salesChannelProductRepository->search(new Criteria([$productID]), $context)->first();
     }
 }

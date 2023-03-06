@@ -1,0 +1,19 @@
+{
+    "config": {
+        "optimize-autoloader": true,
+        "apcu-autoloader": true,
+        "platform": {
+            "php": "8.0.0"
+        },
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "require-dev": {
+        "composer-runtime-api": "^2.0",
+        "k10r/codestyle": "^2.0"
+    },
+    "scripts": {
+        "phpcs": "./vendor/bin/php-cs-fixer fix",
+        "check": "composer phpcs"
+    }
+}
