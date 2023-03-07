@@ -1,8 +1,22 @@
 {
-    "name": "pt1602/shopwaregetproductbyid",
-    "description": "PT1602 ShopwareGetProductById",
+    "name": "pt1602/getproductbyid",
+    "description": "PT1602 getProductByID",
+    "keywords": [
+        "shopware-platform-plugin",
+        "getproductbyid",
+        "pt1602"
+    ],
+    "version": "0.0.1",
     "type": "shopware-platform-plugin",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Philipp Tuchardt",
+            "homepage": "https://www.pt1602.de/"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "ShopwareGetProductById\\": "src/"
@@ -11,8 +25,8 @@
     "extra": {
         "shopware-plugin-class": "ShopwareGetProductById\\ShopwareGetProductById",
         "label": {
-            "de-DE": "Skeleton plugin",
-            "en-GB": "Skeleton plugin"
+            "de-DE": "PT1602 getProductByID",
+            "en-GB": "PT1602 getProductByID"
         }
     }
 }
