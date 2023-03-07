@@ -11,7 +11,7 @@
 A simple Shopware 6 plugin which adds a twig function to get the all about information about the product when you only
 got the id.
 
-This plugin is more a demo and a place where then anything else.
+__This plugin is more a demo then anything else.__
 
 ---
 
