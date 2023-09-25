@@ -11,7 +11,7 @@
 A simple Shopware 6 plugin which adds a twig function to get the all about information about the product when you only
 got the id.
 
-__This plugin is more a demo then anything else.__
+__This plugin is only a demo for quick tests.__
 
 ---
 
@@ -34,7 +34,7 @@ composer require pt1602/getproductbyid
 ## Example
 
 ```twig
-{{ getProductByID('86da6b3c52064b928ee19c2cab2698be').name|raw }}
+{{ getProductByID('86da6b3c52064b928ee19c2cab2698be', context).name|raw }}
 ```
 ---
 
