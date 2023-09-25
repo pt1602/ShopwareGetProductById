@@ -1,12 +1,12 @@
 {
     "name": "pt1602/getproductbyid",
-    "description": "PT1602 getProductByID",
+    "description": "PT1602 getProductByID(id, context)",
     "keywords": [
         "shopware-platform-plugin",
         "getproductbyid",
         "pt1602"
     ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "shopware-platform-plugin",
     "license": "MIT",
     "authors": [
@@ -25,8 +25,8 @@
     "extra": {
         "shopware-plugin-class": "ShopwareGetProductById\\ShopwareGetProductById",
         "label": {
-            "de-DE": "PT1602 getProductByID",
-            "en-GB": "PT1602 getProductByID"
+            "de-DE": "Twig Function getProductByID(id, context)",
+            "en-GB": "Twig Function getProductByID(id, context)"
         }
     }
 }
