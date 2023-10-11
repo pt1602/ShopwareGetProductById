@@ -4,7 +4,7 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
-        <service id="ShopwareGetProductById\Subscriber\GetProductById">
+        <service id="ShopwareGetProductById\Core\Framework\Adapter\Twig\Extention\GetProductByIdExtention">
             <tag name="twig.extension"/>
             <argument type="service" id="sales_channel.product.repository"/>
         </service>
