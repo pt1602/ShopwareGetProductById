@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ShopwareGetProductById\Core\Framework\Adapter\Twig\Extention;
+namespace ShopwareGetProductById\Core\Framework\Adapter\Twig\Extension;
 
 use ShopwareGetProductById\Core\Helper\ProductCriteriaHelper;
 use Shopware\Core\Framework\DataAbstractionLayer\Entity;
@@ -13,7 +13,7 @@ use Shopware\Core\System\SalesChannel\SalesChannelContext;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
-class GetProductByIdExtention extends AbstractExtension
+class GetProductByIdExtension extends AbstractExtension
 {
     private SalesChannelRepository $salesChannelProductRepository;
 
